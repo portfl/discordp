@@ -117,12 +117,12 @@ export const Main = () => {
           <VStack>
             <Text fontSize={'5xl'}>IMAGINE UM</Text>
             <Text fontSize={'5xl'}>LUGAR...</Text>
-            <Text>…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os dias e socializar com mais frequência.</Text>
-            <Box display={'flex'} >
+            <Text className="font-sans">…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os dias e socializar com mais frequência.</Text>
+          </VStack>
+          <Box display={'flex'} marginTop={30} marginLeft={40}>
               <Button height={'44px'} width={300} borderRadius={20} marginRight={20} backgroundColor={'#ffffff'} color={'#23272a'}>Baixar Para Windows</Button>
               <Button height={'44px'} width={300} borderRadius={20}  backgroundColor={'#23272a'} fontSize={'16px'}>Abra o Discord no seu navegador</Button>
-            </Box>
-          </VStack>
+          </Box>
         </Box>
       </Flex>
     </div>
